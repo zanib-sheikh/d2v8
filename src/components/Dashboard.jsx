@@ -67,28 +67,28 @@ function Dashboard() {
 <section id="dashboard" className="w-4/5 px-2 inline-block pt-4  items-center justify-center">
 <div className="flex relative  gap-0 md:space-x-1 max-w-3xl mt-16 text-lg   pl-2 pr-2 text-white mb-1 ">
       <div className="flex transition-transform duration-300 hover:scale-105 flex-col bg-[#71C1E8] rounded-lg border w-[500px] h-[120px] py-1 px-4 justify-center">
-      <div className="flex items-center space-x-4">
-    <h2 className="text-white font-bold text-xl">Approved</h2>
-    <BadgeCheck className="w-4 h-4 text-white" />
-  </div>
+      <div className="flex justify-between items-center w-full">
+  <h2 className="text-white font-bold text-xl">Cancel</h2>
+  <BadgeCheck className="w-4 h-4 text-white" />
+</div>
   <p className="mt-2 text-white">2</p>
 </div>
 <div className="flex flex-col transition-transform duration-300 hover:scale-105 bg-[#FFDE59] rounded-lg border w-[500px] h-[120px] md:p-4 p-4 justify-center md:mt-0 mt-4">
-  <div className="flex items-center space-x-4">
+  <div className="flex justify-between items-center w-full ">
     <h2 className="text-white font-bold text-xl">Pending</h2>
     <CircleEllipsis className="w-5 h-5 text-white" />
   </div>
   <p className="mt-2 text-white">2</p>
 </div>
 <div className="flex flex-col transition-transform duration-300 hover:scale-105 bg-[#FFA0A3] rounded-lg border w-[500px] h-[120px] md:p-4 p-4 justify-center md:mt-0 mt-4">
-  <div className="flex items-center space-x-6">
+  <div className="flex justify-between items-center w-full ">
     <h2 className="text-white font-bold text-xl">Cancel</h2>
     <Ban className="w-4 h-4 text-white" />
   </div>
   <p className="mt-2 text-white">2</p>
 </div>
 <div className="flex flex-col transition-transform duration-300 hover:scale-105 bg-[#01B574C4] rounded-lg border w-[500px] h-[120px] md:p-4 p-4 justify-center md:mt-0 mt-4">
-  <div className="flex items-center space-x-6">
+  <div className="flex justify-between items-center w-full ">
     <h2 className="text-white font-bold text-xl">Done</h2>
     <BadgeCheck className="w-4 h-4 text-white" />
   </div>
