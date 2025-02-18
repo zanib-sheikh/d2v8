@@ -116,10 +116,10 @@ function Dashboard() {
       <div className="md:flex md:space-x-4 justify-center max-w-3xl  py-1 pl-2 pr-2 mb-0">
         {/* box 1 */}
       <div className="flex flex-col bg-white rounded-lg border  w-[400px] h-auto shadow-md md:px-4 px-2">
-      <div className="flex space-x-24">
-        <h2 className="font-bold p-1 mt-4 text-xl">Event Statistics</h2>
-  <p className="text-gray-500 mt-6 text-sm ">Top 5</p>
-  </div>
+     <div className="flex justify-between mb-2 w-full">
+  <h2 className="font-bold  mt-4 text-xl">Event Statistics</h2>
+  <p className="text-gray-500 mt-6 text-sm">Top 5</p>
+</div>
 
   {/* Table */}
 <div className="mt-0 px-2">
@@ -171,8 +171,10 @@ function Dashboard() {
   
  {/* box 2 */}
         <div className="flex flex-col rounded-lg border  w-[400px] h-[240px] md:p-4 p-2 md:mt-0 mt-2 bg-white shadow-lg">
-      <h2 className="text-lg mt-0 mb-6 font-bold">Monthly Revenue</h2>
-      
+    <div className="flex justify-between mb-2 w-full">
+  <h2 className="font-bold   text-xl">Monthly Revenue</h2>
+  <p className="text-gray-500  text-sm">Top 5</p>
+</div>
 
       <ResponsiveContainer width="100%" height={180}>
   <BarChart data={dataa} barSize={12}>
@@ -234,10 +236,10 @@ function Dashboard() {
 
      
       <div className="flex bg-white flex-col rounded-lg border  w-[400px] h-auto shadow-md md:px-4 px-2">
-      <div className="flex space-x-40">
-        <h2 className="font-bold p-1 mt-4 text-xl">Partners</h2>
-  <p className="text-gray-500 mt-6 text-sm ">Top 5</p>
-  </div>
+      <div className="flex justify-between mb-2  w-full">
+  <h2 className="font-bold  mt-4 text-xl">Partners</h2>
+  <p className="text-gray-500  mt-6 text-sm">Top 5</p>
+</div>
   {/* Table */}
 <div className="mt-0 px-2">
   <table className="w-full text-sm border-separate border-spacing-y-2">
@@ -282,8 +284,10 @@ function Dashboard() {
 </div>
  {/* box 4 */}
         <div className="flex flex-col rounded-lg border  w-[400px] h-[240px] md:p-2 p-2 md:mt-0 mt-0 bg-white shadow-lg">
-      <h2 className="text-lg font-bold px-3 mt-1">Issued Invoices</h2>
-
+      <div className="flex justify-between mb-2 px-1 w-full">
+  <h2 className="font-bold mt-2  text-xl">Issued Invoices</h2>
+  <p className="text-gray-500 mt-3 text-sm">Top 5</p>
+</div>
       {/* Chart */}
       <div className="flex mt-0 justify-center">
         <PieChart width={150} height={150}>
